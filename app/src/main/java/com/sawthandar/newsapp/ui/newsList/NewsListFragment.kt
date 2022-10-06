@@ -97,6 +97,8 @@ class NewsListFragment : BaseFragment() {
     }
 
     private fun setUpDataObservation() {
+        binding.materialLoader.visibility = View.VISIBLE
+
         newsListViewModel.getNewsListFromDatabase().observe(viewLifecycleOwner) { it ->
             it?.let { news ->
 
@@ -107,6 +109,7 @@ class NewsListFragment : BaseFragment() {
 
                 mNewsList.forEach { news ->
                     news.articles?.let { article ->
+                        binding.materialLoader.visibility = View.GONE
                         mArticleList.addAll(article.distinctBy { it.description })
                     }
                 }

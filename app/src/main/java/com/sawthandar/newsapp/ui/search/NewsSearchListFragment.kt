@@ -68,9 +68,12 @@ class NewsSearchListFragment : BaseFragment() {
         binding.searchEditText.addTextChangedListener(object : TextWatcher {
 
             override fun afterTextChanged(s: Editable?) {
+                binding.materialLoader.visibility = View.VISIBLE
+
                 handler.removeCallbacksAndMessages(null)
                 handler.postDelayed({
                     s?.toString()?.let { searchWord ->
+                        binding.materialLoader.visibility = View.GONE
                         onChangeTextAfterSecond(searchWord)
                     }
                 }, 600)
@@ -118,6 +121,7 @@ class NewsSearchListFragment : BaseFragment() {
     }
 
     private fun setUpDataObservation() {
+
         newsSearchListViewModel.getSearchNewsList().observe(viewLifecycleOwner) {
             it?.let { articleList ->
                 binding.newsSearchRecyclerview.visibility = View.VISIBLE
