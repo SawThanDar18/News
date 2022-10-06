@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height50"
+        android:background="@color/teal_200">
+
+        <ImageView
+            android:id="@+id/back_image"
+            android:layout_width="@dimen/width30"
+            android:layout_height="@dimen/height30"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            android:id="@+id/details_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fontSizeXMedium"
+            android:textStyle="bold"
+            tools:ignore="SpUsage" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:layout_below="@id/tool_bar">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/news_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card_view"
+                android:layout_marginHorizontal="@dimen/margin16"
+                android:textColor="@color/teal_700"
+                android:textSize="@dimen/fontSizeXMedium"
+                android:textStyle="italic"
+                tools:ignore="SpUsage" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height300"
+                android:layout_marginHorizontal="@dimen/margin16"
+                android:layout_marginVertical="@dimen/margin16"
+                app:cardCornerRadius="@dimen/radius10">
+
+                <ImageView
+                    android:id="@+id/news_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@null"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/news_logo" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/content_card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/news_title"
+                android:layout_marginHorizontal="@dimen/margin16"
+                android:layout_marginVertical="@dimen/margin16"
+                app:cardBackgroundColor="@color/teal_200"
+                app:cardCornerRadius="@dimen/radius10">
+
+                <TextView
+                    android:id="@+id/news_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/margin16"
+                    android:layout_marginVertical="@dimen/margin16"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/fontSizeXMedium"
+                    tools:ignore="SpUsage" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/news_source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/content_card_view"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/margin16"
+                android:layout_marginBottom="@dimen/margin32"
+                android:textColor="@color/teal_700"
+                android:textSize="@dimen/fontSizeXMedium"
+                android:textStyle="italic"
+                tools:ignore="SpUsage" />
+
+            </RelativeLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

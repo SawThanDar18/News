@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/SawThandar/BetterHR-CodeTest/NewsApp/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1" />
+        <entry key="..\:/SawThandar/BetterHR-CodeTest/NewsApp/app/src/main/res/drawable/ic_lens.xml" value="0.106" />
+        <entry key="..\:/SawThandar/BetterHR-CodeTest/NewsApp/app/src/main/res/drawable/loader_circle_shape.xml" value="0.106" />
+        <entry key="..\:/SawThandar/BetterHR-CodeTest/NewsApp/app/src/main/res/drawable/search_bar_corner.xml" value="0.106" />
+        <entry key="..\:/SawThandar/BetterHR-CodeTest/NewsApp/app/src/main/res/layout/activity_main.xml" value="0.14130434782608695" />
+        <entry key="..\:/SawThandar/BetterHR-CodeTest/NewsApp/app/src/main/res/layout/fragment_news_detail.xml" value="0.14130434782608695" />
+        <entry key="..\:/SawThandar/BetterHR-CodeTest/NewsApp/app/src/main/res/layout/fragment_news_list.xml" value="0.25" />
+        <entry key="..\:/SawThandar/BetterHR-CodeTest/NewsApp/app/src/main/res/layout/fragment_news_search.xml" value="0.14130434782608695" />
+        <entry key="..\:/SawThandar/BetterHR-CodeTest/NewsApp/app/src/main/res/layout/news_list_item_view.xml" value="0.25" />
+        <entry key="..\:/SawThandar/BetterHR-CodeTest/NewsApp/app/src/main/res/layout/news_list_item_view_reverse.xml" value="0.14130434782608695" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

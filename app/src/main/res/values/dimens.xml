@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin2">2dp</dimen>
+    <dimen name="margin4">4dp</dimen>
+    <dimen name="margin6">6dp</dimen>
+    <dimen name="margin8">8dp</dimen>
+    <dimen name="margin10">10dp</dimen>
+    <dimen name="margin16">16dp</dimen>
+    <dimen name="margin20">20dp</dimen>
+    <dimen name="margin24">24dp</dimen>
+    <dimen name="margin32">32dp</dimen>
+    <dimen name="margin34">34dp</dimen>
+    <dimen name="margin64">64dp</dimen>
+
+    <dimen name="padding1">1dp</dimen>
+    <dimen name="padding2">2dp</dimen>
+    <dimen name="padding4">4dp</dimen>
+    <dimen name="padding8">8dp</dimen>
+    <dimen name="padding10">10dp</dimen>
+    <dimen name="padding15">15dp</dimen>
+    <dimen name="padding16">16dp</dimen>
+    <dimen name="padding24">24dp</dimen>
+    <dimen name="padding32">32dp</dimen>
+    <dimen name="padding40">40dp</dimen>
+    <dimen name="padding64">64dp</dimen>
+
+    <dimen name="width27">27dp</dimen>
+    <dimen name="width30">30dp</dimen>
+    <dimen name="width32">32dp</dimen>
+    <dimen name="width40">40dp</dimen>
+    <dimen name="width50">50dp</dimen>
+    <dimen name="width60">60dp</dimen>
+    <dimen name="width70">70dp</dimen>
+    <dimen name="width100">100dp</dimen>
+    <dimen name="width160">160dp</dimen>
+    <dimen name="width150">150dp</dimen>
+    <dimen name="width180">180dp</dimen>
+    <dimen name="width240">240dp</dimen>
+    <dimen name="width300">300dp</dimen>
+
+    <dimen name="height1">1dp</dimen>
+    <dimen name="height3">3dp</dimen>
+    <dimen name="height27">27dp</dimen>
+    <dimen name="height30">30dp</dimen>
+    <dimen name="height35">35dp</dimen>
+    <dimen name="height40">40dp</dimen>
+    <dimen name="height50">50dp</dimen>
+    <dimen name="height60">60dp</dimen>
+    <dimen name="height80">80dp</dimen>
+    <dimen name="height90">90dp</dimen>
+    <dimen name="height100">100dp</dimen>
+    <dimen name="height130">130dp</dimen>
+    <dimen name="height150">150dp</dimen>
+    <dimen name="height160">160dp</dimen>
+    <dimen name="height200">200dp</dimen>
+    <dimen name="height300">300dp</dimen>
+
+    <dimen name="radius10">10dp</dimen>
+
+    <dimen name="fontSizeXSmall">12dp</dimen>
+    <dimen name="fontSizeSmall">14dp</dimen>
+    <dimen name="fontSizeMedium">16dp</dimen>
+    <dimen name="fontSizeXMedium">18dp</dimen>
+    <dimen name="fontSizeLarge">20dp</dimen>
+    <dimen name="fontSizeXLarge">25dp</dimen>
+
+    <dimen name="search_toolbar_height">120dp</dimen>
+    <dimen name="search_layout_height">50dp</dimen>
+
+</resources>
